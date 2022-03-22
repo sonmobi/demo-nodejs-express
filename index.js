@@ -3,7 +3,7 @@ import express from 'express';  // cách nhúng theo tên module có sẵn
 import {create} from 'express-handlebars' // create là tên có sẵn trong handlebar nên không thay đổi được
 
 const app = express(); // tạo đối tượng app chính
-const port = 8080;
+const port = 80;
 // thiết lập route cho các file tĩnh, giả sử các file css để trong thư mục public
 app.use('/static',express.static('./public')); 
 //----- 
